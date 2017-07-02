@@ -3,10 +3,10 @@ The script reduces the number snapshots created by FreeNAS Perodic Snapshots Tas
 
 It has been tested with FreeNas-11.
 
+# Config.py
+Customize the config file with your system's particulars. Server username, password and URL. Customize the snapshot culling timeframes.
+
 # Install
 1. Copy the script and config.py to a user folder on your server or storage.
 2. Customize the config.py.
 3. Setup and a cron job to run as desired.
-
-# Config.py
-Customize the config file with your system's particulars. Server username, password and URL. Customize the snapshot culling timeframes.

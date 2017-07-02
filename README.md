@@ -1,3 +1,6 @@
+# Disclamer
+I'm a noob. Use at your own risk.
+
 # FreeNAS-Cull-Snapshots
 The script reduces the number snapshots created by FreeNAS Perodic Snapshots Tasks. It uses two methods, first it compares snapshots two at a time deleting newer snapshots that have no difference from the older one. Second, after a user specified time it reduces the number of snapshots taken throughout a day to one per day, then after another user defined length of time reduces the number to one per week.
 
@@ -14,6 +17,3 @@ Customize the config file with your system's particulars. Server username, passw
 1. Copy the script and config.py to a user folder on your server or storage.
 2. Customize the config.py.
 3. Setup and a cron job to run as desired.
-
-# Disclamer
-I'm a noob. Use at your own risk.

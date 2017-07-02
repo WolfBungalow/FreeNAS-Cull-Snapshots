@@ -14,3 +14,6 @@ Customize the config file with your system's particulars. Server username, passw
 1. Copy the script and config.py to a user folder on your server or storage.
 2. Customize the config.py.
 3. Setup and a cron job to run as desired.
+
+# Disclamer
+I'm a noob. Use at your own risk.

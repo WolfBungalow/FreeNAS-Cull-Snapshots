@@ -3,6 +3,9 @@ The script reduces the number snapshots created by FreeNAS Perodic Snapshots Tas
 
 It has been tested with FreeNas-11.
 
+# Multiple FreeNAS Periodic Snapshot Tasks
+This script matches snapshots based on their name, particularly the "Volume/Dataset" and the "Snapshot Lifetime". In FreeNAS you can setup multiple Periodic Snapshot Tasks that have the same "Volume/Dataset" and the "Snapshot Lifetime" but different Begin, End, Interval and Weekday settings. The script will treat those snapshots as the same snapshot task when comparing.
+
 # Config.py
 Customize the config file with your system's particulars. Server username, password and URL. Customize the snapshot culling timeframes.
 

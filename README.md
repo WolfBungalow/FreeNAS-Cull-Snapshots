@@ -3,7 +3,10 @@ The script reduces the number snapshots created by FreeNAS Perodic Snapshots Tas
 
 It has been tested with FreeNas-11.
 
-The script first destroys snaps that have no difference between them. It then destroys snaps by date, reducing multiple snaps per day snaps to one per day then one per week. The timeframe is customizable in the config. I've included comments within the script.
+# Install
+1. Copy the script and config.py to a user folder on your server or storage.
+2. Customize the config.py.
+3. Setup and a cron job to run as desired.
 
 # Config.py
 Customize the config file with your system's particulars. Server username, password and URL. Customize the snapshot culling timeframes.

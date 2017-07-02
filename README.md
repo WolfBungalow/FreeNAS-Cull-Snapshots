@@ -1,6 +1,7 @@
 # FreeNAS-Cull-Snapshots
 The script reduces the number snapshots created by FreeNAS Perodic Snapshots Tasks. It uses two methods, first it compares snapshots two at a time deleting newer snapshots that have no difference from the older one. Second, after a user specified time it reduces the number of snapshots taken throughout a day to one per day, then after another user defined length of time reduces the number to one per week.
 
+# FreeNAS Verion Support
 It has been tested with FreeNas-11. It worked on older versions back to FreeNAS-9 but I updated for FreeNAS-11 and am not going to go back and test on older versions.
 
 # Multiple FreeNAS Periodic Snapshot Tasks

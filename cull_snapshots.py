@@ -84,7 +84,7 @@ def cull_SnapsByDate(snapTaskDetail):
                 snapName.split('@')[1][5:18], '%Y%m%d.%H%M')
             snapDaysOld = (today - snapDate).days
 
-            # Keep all snaps less than X days old.
+            # Ignore snaps less than X days old.
             if snapDaysOld < config.snapAgeMin: continue
 
             # Get the date string for deciding whether to keep a snap. If older
